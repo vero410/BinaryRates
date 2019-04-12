@@ -1,0 +1,18 @@
+Rates of binary formation through gravitational capture for a self gravitating spherical cluster.
+
+Calculates maximum pericenter distance for gravitational radiation capture,
+cross section, timescale for 2body encounters and number of encounters per
+relaxation time and cluster lifetime (~100 relaxation times)
+
+
+encounters(N,m,rmin,rmax,b)
+N: total number of objetcs
+m: mass of a single object in M_sol 
+rmin: Smallest cluster radius in parsecs
+rmax: The bigger cluster radius in parsecs
+b: [0.1,1] passage distance in maximum pericenter distances
+
+Example:
+encounters(1E6,10,0.1,5.1,1)
+
+It prints the results for a cluster with radius rmin and a cluster with radius rmax.
