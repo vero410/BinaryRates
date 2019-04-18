@@ -112,7 +112,7 @@ def encounters(N,m,rmin,rmax,b):
 #Semimajor axis of the newly formed binary
 # Semimajor axis in terms of r_perimax and rp
         sma_0=-(G*(m_1*m_2)/(2*E_ini)) #[m]
-        a=sma_0*(1 + (r_perimax/rp)**(7/2))**-1 #[m] a=(-G*(m_1*m_2))/(2*E_fin)
+        a=sma_0*(-1 + (r_perimax/rp)**(7/2))**-1 #[m] a=(-G*(m_1*m_2))/(2*E_fin)
         la.append(a/AU) #Semimajor axis in AU
 
         #eccentricity
